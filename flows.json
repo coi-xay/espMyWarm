@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "9abe1c37dd51772d",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "fea99072f60e6f96",
         "type": "ui_base",
         "theme": {
@@ -169,6 +177,43 @@
         "order": 2,
         "disp": true,
         "width": 6
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "61285987.c20328",
+        "type": "ui_group",
+        "name": "Main",
+        "tab": "e7c46d5e.a1283",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "e7c46d5e.a1283",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard"
     },
     {
         "id": "c53df9aaf0aee9f8",
@@ -428,5 +473,180 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "9e58624.7faaba",
+        "type": "mqtt out",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "topic": "esp32/output",
+        "qos": "",
+        "retain": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 410,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "abf7079a.653be8",
+        "type": "mqtt in",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "topic": "esp32/temperature",
+        "qos": "2",
+        "broker": "10e78a89.5b4fd5",
+        "inputs": 0,
+        "x": 284,
+        "y": 287,
+        "wires": [
+            [
+                "cc79021b.9a751",
+                "21eae8f8.2971b8"
+            ]
+        ]
+    },
+    {
+        "id": "83cf37cf.c76988",
+        "type": "ui_switch",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "label": "Output",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 269,
+        "y": 380,
+        "wires": [
+            [
+                "9e58624.7faaba"
+            ]
+        ]
+    },
+    {
+        "id": "cc79021b.9a751",
+        "type": "debug",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 481,
+        "y": 254,
+        "wires": []
+    },
+    {
+        "id": "4aecba01.78ce64",
+        "type": "mqtt in",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "topic": "esp32/humidity",
+        "qos": "2",
+        "broker": "10e78a89.5b4fd5",
+        "inputs": 0,
+        "x": 273,
+        "y": 171,
+        "wires": [
+            [
+                "22efa7b7.544a28",
+                "df37e6b7.64c1c8"
+            ]
+        ]
+    },
+    {
+        "id": "22efa7b7.544a28",
+        "type": "debug",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 470,
+        "y": 138,
+        "wires": []
+    },
+    {
+        "id": "21eae8f8.2971b8",
+        "type": "ui_chart",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 481,
+        "y": 314,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "df37e6b7.64c1c8",
+        "type": "ui_gauge",
+        "z": "9abe1c37dd51772d",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b3d9",
+            "#0073e6",
+            "#001bd7"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "x": 460,
+        "y": 198,
+        "wires": []
     }
 ]
