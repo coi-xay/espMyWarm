@@ -605,7 +605,7 @@
         "type": "ui_button",
         "z": "7d62a07d6ecd29bb",
         "name": "",
-        "group": "61285987.c20328",
+        "group": "abf075e9062075d9",
         "order": 3,
         "width": "2",
         "height": "2",
@@ -622,6 +622,32 @@
         "topicType": "msg",
         "x": 590,
         "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61e52512d33109de",
+        "type": "ui_button",
+        "z": "7d62a07d6ecd29bb",
+        "name": "",
+        "group": "abf075e9062075d9",
+        "order": 3,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 590,
+        "y": 620,
         "wires": [
             []
         ]
