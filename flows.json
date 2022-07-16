@@ -327,7 +327,7 @@
         "name": "",
         "label": "weather.Wind.Speed",
         "format": "{{msg.payload}}",
-        "layout": "row-spread",
+        "layout": "col-center",
         "className": "",
         "x": 880,
         "y": 320,
@@ -476,6 +476,18 @@
         "swaggerDoc": "",
         "x": 480,
         "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9e799bfb4e30563",
+        "type": "ui_ui_control",
+        "z": "7d62a07d6ecd29bb",
+        "name": "nongdan.gc",
+        "events": "all",
+        "x": 210,
+        "y": 520,
         "wires": [
             []
         ]
@@ -661,17 +673,5 @@
         "x": 460,
         "y": 198,
         "wires": []
-    },
-    {
-        "id": "b9e799bfb4e30563",
-        "type": "ui_ui_control",
-        "z": "9abe1c37dd51772d",
-        "name": "nongdan.gc",
-        "events": "all",
-        "x": 330,
-        "y": 740,
-        "wires": [
-            []
-        ]
     }
 ]
