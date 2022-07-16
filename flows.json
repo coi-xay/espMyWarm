@@ -547,6 +547,36 @@
         "wires": []
     },
     {
+        "id": "07ce0910a5def7c1",
+        "type": "ui_colour_picker",
+        "z": "7d62a07d6ecd29bb",
+        "name": "",
+        "label": "",
+        "group": "abf075e9062075d9",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 5,
+        "width": "1",
+        "height": "1",
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 610,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "9e58624.7faaba",
         "type": "mqtt out",
         "z": "9abe1c37dd51772d",
