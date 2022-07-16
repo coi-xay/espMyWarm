@@ -489,7 +489,7 @@
         "name": "nongdan.gc",
         "events": "all",
         "x": 210,
-        "y": 520,
+        "y": 460,
         "wires": [
             []
         ]
@@ -509,11 +509,30 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 200,
-        "y": 580,
+        "x": 400,
+        "y": 460,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "0996c29b77a7691b",
+        "type": "ui_toast",
+        "z": "7d62a07d6ecd29bb",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 200,
+        "y": 560,
+        "wires": []
     },
     {
         "id": "9e58624.7faaba",
