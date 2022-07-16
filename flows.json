@@ -635,7 +635,7 @@
         "order": 3,
         "width": "1",
         "height": "1",
-        "passthru": true,
+        "passthru": false,
         "label": "button",
         "tooltip": "",
         "color": "",
