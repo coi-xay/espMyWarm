@@ -577,6 +577,30 @@
         ]
     },
     {
+        "id": "ccbd1079ff864262",
+        "type": "ui_text_input",
+        "z": "7d62a07d6ecd29bb",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "80b5816eab4f0646",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 180,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "9e58624.7faaba",
         "type": "mqtt out",
         "z": "9abe1c37dd51772d",
