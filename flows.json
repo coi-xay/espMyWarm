@@ -327,7 +327,7 @@
         "name": "",
         "label": "weather.Wind.Speed",
         "format": "{{msg.payload}}",
-        "layout": "col-center",
+        "layout": "row-center",
         "className": "",
         "x": 880,
         "y": 320,
