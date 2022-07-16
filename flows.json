@@ -657,8 +657,21 @@
         ],
         "seg1": "33",
         "seg2": "66",
+        "className": "",
         "x": 460,
         "y": 198,
         "wires": []
+    },
+    {
+        "id": "b9e799bfb4e30563",
+        "type": "ui_ui_control",
+        "z": "9abe1c37dd51772d",
+        "name": "nongdan.gc",
+        "events": "all",
+        "x": 330,
+        "y": 740,
+        "wires": [
+            []
+        ]
     }
 ]
