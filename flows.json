@@ -31,7 +31,7 @@
                 "default": "#097479",
                 "baseColor": "#f9d423",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false,
+                "edited": true,
                 "reset": false
             },
             "customTheme": {
@@ -134,11 +134,13 @@
     {
         "id": "80b5816eab4f0646",
         "type": "ui_group",
-        "name": "Group 1",
+        "name": "timeline",
         "tab": "9f2a176a919ae016",
         "order": 1,
         "disp": true,
-        "width": 6
+        "width": "6",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "021efc9c770c32ae",
@@ -327,7 +329,7 @@
         "name": "",
         "label": "weather.Wind.Speed",
         "format": "{{msg.payload}}",
-        "layout": "row-center",
+        "layout": "row-spread",
         "className": "",
         "x": 880,
         "y": 320,
@@ -488,6 +490,27 @@
         "events": "all",
         "x": 210,
         "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "20bb4344fa8a5454",
+        "type": "ui_template",
+        "z": "7d62a07d6ecd29bb",
+        "group": "80b5816eab4f0646",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 580,
         "wires": [
             []
         ]
