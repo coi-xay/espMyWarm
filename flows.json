@@ -502,7 +502,7 @@
         "name": "",
         "order": 0,
         "width": "6",
-        "height": "18",
+        "height": "12",
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
