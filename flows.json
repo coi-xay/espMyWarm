@@ -98,7 +98,7 @@
             "name": "NongDan.gc",
             "hideToolbar": "false",
             "allowSwipe": "true",
-            "lockMenu": "false",
+            "lockMenu": "true",
             "allowTempTheme": "true",
             "dateFormat": "DD/MM/YYYY",
             "sizes": {
