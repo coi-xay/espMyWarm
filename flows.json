@@ -656,7 +656,7 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "",
-        "className": "<style> .md-button {   border-radius: 100% } </style>",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -666,7 +666,8 @@
         "y": 460,
         "wires": [
             []
-        ]
+        ],
+        "info": "<style>\n.md-button {\n  border-radius: 100%\n}\n</style>"
     },
     {
         "id": "9e58624.7faaba",
