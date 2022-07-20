@@ -576,7 +576,7 @@
         "order": 1,
         "width": 6,
         "height": 11,
-        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "format": "<md-button class=\"vibrate filled touched bigfont rounded\" style=\"background-color:#333333\" ng-click=\"send({payload: msg.payload })\">\n\n\n<svg  width=\"260px\" height=\"90px\" version=\"1.1\" viewBox=\"0 0 800 200\">\n <g id=\"Button_Long\">\n\n  <rect fill=\"#333333\" width=\"800\" height=\"200\"/>\n  <g ng-style=\"{fill: (msg.payload || 0) ? 'lime' : 'red'}\">\n    <rect width=\"800\" height=\"200\" rx=\"80\" ry=\"80\"/>\n  </g>\n\n  <rect fill=\"#333333\" x=\"11\" y=\"10\" width=\"778\" height=\"180\" rx=\"90\" ry=\"90\"/>\n  <g ng-style=\"{fill: (msg.payload || 0) ? 'lime' : 'red'}\">\n\n    <text x=\"400\" y=\"125\" style=\"text-anchor:middle\"  font-weight=\"bold\" font-size=\"80\" font-family=\"Arial\">{{(msg.payload||0)? \" OPEN \" : \"CLOSED\"}} </text>\n    </g>\n  </g>\n</svg>\n\n</md-button>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -585,7 +585,9 @@
         "x": 400,
         "y": 460,
         "wires": [
-            []
+            [
+                "6f19f5b4f2eb69b1"
+            ]
         ]
     },
     {
