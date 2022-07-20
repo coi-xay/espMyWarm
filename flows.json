@@ -547,36 +547,6 @@
         "wires": []
     },
     {
-        "id": "07ce0910a5def7c1",
-        "type": "ui_colour_picker",
-        "z": "7d62a07d6ecd29bb",
-        "name": "",
-        "label": "",
-        "group": "abf075e9062075d9",
-        "format": "hex",
-        "outformat": "string",
-        "showSwatch": true,
-        "showPicker": false,
-        "showValue": false,
-        "showHue": false,
-        "showAlpha": false,
-        "showLightness": true,
-        "square": "false",
-        "dynOutput": "false",
-        "order": 5,
-        "width": "1",
-        "height": "1",
-        "passthru": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 610,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ccbd1079ff864262",
         "type": "ui_text_input",
         "z": "7d62a07d6ecd29bb",
@@ -596,58 +566,6 @@
         "topicType": "msg",
         "x": 180,
         "y": 660,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "23554f2481d5e0da",
-        "type": "ui_button",
-        "z": "7d62a07d6ecd29bb",
-        "name": "",
-        "group": "abf075e9062075d9",
-        "order": 3,
-        "width": "1",
-        "height": "1",
-        "passthru": false,
-        "label": "button",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 590,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "61e52512d33109de",
-        "type": "ui_button",
-        "z": "7d62a07d6ecd29bb",
-        "name": "",
-        "group": "abf075e9062075d9",
-        "order": 3,
-        "width": "1",
-        "height": "1",
-        "passthru": false,
-        "label": "button",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 590,
-        "y": 620,
         "wires": [
             []
         ]
