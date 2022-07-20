@@ -338,11 +338,11 @@
         "y": 100,
         "wires": [
             [
-                "732e90c8eaa9cb3d",
                 "521991844135fe6c",
                 "56de3147b646bf6d",
                 "aec4404041dc9292",
-                "c9517e7234670cd9"
+                "c9517e7234670cd9",
+                "6f19f5b4f2eb69b1"
             ]
         ]
     },
@@ -361,7 +361,8 @@
         "statusType": "auto",
         "x": 750,
         "y": 100,
-        "wires": []
+        "wires": [],
+        "info": "<style>\n  .filled { \n      height: 100% !important;\n\n      padding: 0 !important;\n      margin: 0 !important;\n  }\n  .nr-dashboard-template {\n      padding: 0;\n      margin: 0;\n  }\n  \n  .rounded {\n  border-radius: 15px 15px 15px 15px;\n  font-size: 18px;\n}\n  \n</style>"
     },
     {
         "id": "521991844135fe6c",
@@ -662,10 +663,12 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 570,
-        "y": 460,
+        "x": 590,
+        "y": 120,
         "wires": [
-            []
+            [
+                "732e90c8eaa9cb3d"
+            ]
         ],
         "info": "<style>\n.md-button {\n  border-radius: 100%\n}\n</style>"
     },
