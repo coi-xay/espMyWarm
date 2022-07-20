@@ -679,32 +679,6 @@
         ]
     },
     {
-        "id": "aca89ba87a98142f",
-        "type": "ui_button",
-        "z": "7d62a07d6ecd29bb",
-        "name": "",
-        "group": "abf075e9062075d9",
-        "order": 3,
-        "width": "1",
-        "height": "1",
-        "passthru": false,
-        "label": "button",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 390,
-        "y": 680,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "9e58624.7faaba",
         "type": "mqtt out",
         "z": "9abe1c37dd51772d",
