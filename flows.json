@@ -10,7 +10,7 @@
     {
         "id": "9abe1c37dd51772d",
         "type": "tab",
-        "label": "Flow 2",
+        "label": "nongdan_tudong",
         "disabled": false,
         "info": "",
         "env": []
@@ -145,11 +145,13 @@
     {
         "id": "021efc9c770c32ae",
         "type": "ui_group",
-        "name": "Group 2",
+        "name": "esp32.tudong",
         "tab": "9f2a176a919ae016",
         "order": 1,
         "disp": true,
-        "width": 6
+        "width": "18",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "abf075e9062075d9",
@@ -222,6 +224,36 @@
         "type": "ui_tab",
         "name": "Dashboard",
         "icon": "dashboard"
+    },
+    {
+        "id": "751428329c83dcec",
+        "type": "ui_spacer",
+        "z": "7d62a07d6ecd29bb",
+        "name": "spacer",
+        "group": "021efc9c770c32ae",
+        "order": 1,
+        "width": "1",
+        "height": "1"
+    },
+    {
+        "id": "29bb58286af0a3a9",
+        "type": "ui_spacer",
+        "z": "7d62a07d6ecd29bb",
+        "name": "spacer",
+        "group": "021efc9c770c32ae",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9bae82ae4ffc7ffe",
+        "type": "ui_spacer",
+        "z": "7d62a07d6ecd29bb",
+        "name": "spacer",
+        "group": "021efc9c770c32ae",
+        "order": 1,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "c53df9aaf0aee9f8",
@@ -530,8 +562,8 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 200,
-        "y": 560,
+        "x": 220,
+        "y": 520,
         "wires": []
     },
     {
@@ -542,8 +574,8 @@
         "group": "abf075e9062075d9",
         "voice": "",
         "always": "",
-        "x": 380,
-        "y": 540,
+        "x": 740,
+        "y": 460,
         "wires": []
     },
     {
@@ -590,8 +622,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 390,
-        "y": 620,
+        "x": 570,
+        "y": 460,
         "wires": [
             []
         ]
@@ -714,7 +746,7 @@
         "type": "ui_chart",
         "z": "9abe1c37dd51772d",
         "name": "",
-        "group": "61285987.c20328",
+        "group": "021efc9c770c32ae",
         "order": 0,
         "width": 0,
         "height": 0,
@@ -732,6 +764,7 @@
         "removeOlderUnit": "3600",
         "cutout": 0,
         "useOneColor": false,
+        "useUTC": false,
         "colors": [
             "#1f77b4",
             "#aec7e8",
@@ -743,11 +776,12 @@
             "#9467bd",
             "#c5b0d5"
         ],
-        "outputs": 2,
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
         "x": 481,
         "y": 314,
         "wires": [
-            [],
             []
         ]
     },
@@ -756,7 +790,7 @@
         "type": "ui_gauge",
         "z": "9abe1c37dd51772d",
         "name": "",
-        "group": "61285987.c20328",
+        "group": "021efc9c770c32ae",
         "order": 0,
         "width": 0,
         "height": 0,
