@@ -656,7 +656,7 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "",
-        "className": "<style> .md-button {   border-radius: 20% } </style>",
+        "className": "<style> .md-button {   border-radius: 100% } </style>",
         "icon": "",
         "payload": "",
         "payloadType": "str",
