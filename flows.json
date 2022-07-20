@@ -342,7 +342,7 @@
                 "56de3147b646bf6d",
                 "aec4404041dc9292",
                 "c9517e7234670cd9",
-                "6f19f5b4f2eb69b1"
+                "732e90c8eaa9cb3d"
             ]
         ]
     },
@@ -663,12 +663,10 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 590,
-        "y": 120,
+        "x": 570,
+        "y": 460,
         "wires": [
-            [
-                "732e90c8eaa9cb3d"
-            ]
+            []
         ],
         "info": "<style>\n.md-button {\n  border-radius: 100%\n}\n</style>"
     },
