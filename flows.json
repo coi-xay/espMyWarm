@@ -576,14 +576,14 @@
         "order": 1,
         "width": 6,
         "height": 11,
-        "format": "<md-button class=\"vibrate filled touched bigfont rounded\" style=\"background-color:#333333\" ng-click=\"send({payload: msg.payload })\">\n\n\n<svg  width=\"260px\" height=\"90px\" version=\"1.1\" viewBox=\"0 0 800 200\">\n <g id=\"Button_Long\">\n\n  <rect fill=\"#333333\" width=\"800\" height=\"200\"/>\n  <g ng-style=\"{fill: (msg.payload || 0) ? 'lime' : 'red'}\">\n    <rect width=\"800\" height=\"200\" rx=\"80\" ry=\"80\"/>\n  </g>\n\n  <rect fill=\"#333333\" x=\"11\" y=\"10\" width=\"778\" height=\"180\" rx=\"90\" ry=\"90\"/>\n  <g ng-style=\"{fill: (msg.payload || 0) ? 'lime' : 'red'}\">\n\n    <text x=\"400\" y=\"125\" style=\"text-anchor:middle\"  font-weight=\"bold\" font-size=\"80\" font-family=\"Arial\">{{(msg.payload||0)? \" OPEN \" : \"CLOSED\"}} </text>\n    </g>\n  </g>\n</svg>\n\n</md-button>",
+        "format": "<style>\n    .md-icon-button:not(.md-button){\n    position: relative;\n    overflow: visible;\n    padding:5px;\n    cursor:pointer;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    display: inline-block;\n    margin: auto;\n    line-height: initial;\n}\n.md-icon-button:not(.md-button) .md-ripple-container{\n    overflow: visible;\n}\n</style>\n<div>\n    <a class=\"md-icon-button\" md-ink-ripple>\n        <i class=\"fa fa-home\" style=\"font-size:1.6em\"></i>\n    </a>\n</div>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 400,
-        "y": 460,
+        "x": 620,
+        "y": 640,
         "wires": [
             []
         ]
@@ -658,15 +658,17 @@
         "color": "",
         "bgcolor": "",
         "className": ".md-button { border-radius: 25%; } ",
-        "icon": " fa-icons - all",
+        "icon": "fa-flame fa-3x",
         "payload": "",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 580,
-        "y": 460,
+        "x": 400,
+        "y": 640,
         "wires": [
-            []
+            [
+                "20bb4344fa8a5454"
+            ]
         ],
         "info": "<style>\n.md-button {\n  border-radius: 100%\n}\n</style>"
     },
