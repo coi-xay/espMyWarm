@@ -31,7 +31,7 @@
                 "default": "#097479",
                 "baseColor": "#f9d423",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false,
+                "edited": true,
                 "reset": false
             },
             "customTheme": {
@@ -117,7 +117,7 @@
         "id": "9f2a176a919ae016",
         "type": "ui_tab",
         "name": "ROOM 1",
-        "icon": "dashboard",
+        "icon": "fa-fire",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -126,7 +126,7 @@
         "id": "aafdf2f6f62a7cfd",
         "type": "ui_tab",
         "name": "ROOM 2",
-        "icon": "dashboard",
+        "icon": "wi-wu-sunny",
         "order": 2,
         "disabled": false,
         "hidden": false
