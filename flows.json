@@ -576,7 +576,7 @@
         "order": 1,
         "width": 6,
         "height": 11,
-        "format": "<style>\n/* color background Body */\nbody.nr-dashboard-theme {\n  background-color: #000920;\n  \n}\n\n/* color background Menu sideNav */\nbody.nr-dashboard-theme md-sidenav {\n  color: #fbe36d;\n  background-color: #00092c;\n}\n/* color background Card-Panel */\n.nr-dashboard-theme ui-card-panel {\n  background-color: rgba(255,255,255,0.03);\n  border: 2px solid #555;\n}\n\n/* color background Card Content */\nbody.nr-dashboard-theme md-content md-card {\n  background-color: rgba(255,255,255,0.08);\n  color: #eeeeee;\n}\n/* color background Button */\n   .nr-dashboard-theme .nr-dashboard-button .md-button {\n  background-color: #f9d423;\n  color: white;\n  border-radius: 10px;\n}\n</style>\n\n",
+        "format": "<style>\n/* color background Body */\nbody.nr-dashboard-theme {\n  background-color: #000920;\n  \n}\n\n/* color background Menu sideNav */\nbody.nr-dashboard-theme md-sidenav {\n  color: #fbe36d;\n  background-color: #000920;\n}\n/* color background Card-Panel */\n.nr-dashboard-theme ui-card-panel {\n  background-color: rgba(255,255,255,0.03);\n  border: 2px solid #555;\n}\n\n/* color background Card Content */\nbody.nr-dashboard-theme md-content md-card {\n  background-color: rgba(255,255,255,0.08);\n  color: #eeeeee;\n}\n/* color background Button */\n   .nr-dashboard-theme .nr-dashboard-button .md-button {\n  background-color: #f9d423;\n  color: white;\n  border-radius: 10px;\n}\n</style>\n\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
