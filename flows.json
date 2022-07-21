@@ -625,8 +625,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 180,
-        "y": 660,
+        "x": 200,
+        "y": 620,
         "wires": [
             []
         ]
@@ -651,8 +651,35 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 400,
-        "y": 640,
+        "x": 200,
+        "y": 680,
+        "wires": [
+            []
+        ],
+        "info": "<style>\n.md-button {\n  border-radius: 100%\n}\n</style>"
+    },
+    {
+        "id": "85972a162b2b492e",
+        "type": "ui_button",
+        "z": "7d62a07d6ecd29bb",
+        "name": "btnClick",
+        "group": "abf075e9062075d9",
+        "order": 2,
+        "width": "2",
+        "height": "2",
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": ".md-button { border-radius: 25%; } ",
+        "icon": "fa-flame fa-3x",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 740,
         "wires": [
             []
         ],
