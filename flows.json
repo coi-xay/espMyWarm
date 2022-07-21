@@ -608,18 +608,6 @@
         "wires": []
     },
     {
-        "id": "64ae6e2a8ac28fc9",
-        "type": "ui_audio",
-        "z": "7d62a07d6ecd29bb",
-        "name": "",
-        "group": "abf075e9062075d9",
-        "voice": "",
-        "always": "",
-        "x": 740,
-        "y": 460,
-        "wires": []
-    },
-    {
         "id": "ccbd1079ff864262",
         "type": "ui_text_input",
         "z": "7d62a07d6ecd29bb",
