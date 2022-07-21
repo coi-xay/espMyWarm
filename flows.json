@@ -666,9 +666,7 @@
         "x": 400,
         "y": 640,
         "wires": [
-            [
-                "20bb4344fa8a5454"
-            ]
+            []
         ],
         "info": "<style>\n.md-button {\n  border-radius: 100%\n}\n</style>"
     },
