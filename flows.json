@@ -576,7 +576,7 @@
         "order": 1,
         "width": 6,
         "height": 11,
-        "format": "<style>\n    .md-icon-button:not(.md-button){\n    position: relative;\n    overflow: visible;\n    padding:5px;\n    cursor:pointer;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    display: inline-block;\n    margin: auto;\n    line-height: initial;\n}\n.md-icon-button:not(.md-button) .md-ripple-container{\n    overflow: visible;\n}\n</style>\n<div>\n    <a class=\"md-icon-button\" md-ink-ripple>\n        <i class=\"fa fa-home\" style=\"font-size:1.6em\"></i>\n    </a>\n</div>\n",
+        "format": "<style>\n   .nr-dashboard-theme .nr-dashboard-button .md-button {\n  background-color: #f9d423;\n  color: white;\n  border-radius: 10px;\n}\n</style>\n\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
